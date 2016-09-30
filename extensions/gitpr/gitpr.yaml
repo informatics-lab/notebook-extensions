@@ -1,0 +1,6 @@
+Type: IPython Notebook Extension
+Name: Git PR
+Description: Submits git PR
+Link: readme.md
+Main: github-commit-push.js
+Compatibility: 4.x
