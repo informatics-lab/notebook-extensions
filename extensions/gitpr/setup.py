@@ -4,11 +4,11 @@ from setuptools import setup
 
 
 # should be loaded below
-__version__ = None
+__version__ = "0.1"
 
 setup(
     name="gitpr",
-    version=0.0.1,
+    version=__version__,
     description="Git PR",
     long_description="Buttom to submits PRs to a git repo",
     author="Niall Robinson",
