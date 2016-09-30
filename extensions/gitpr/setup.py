@@ -23,8 +23,5 @@ setup(
     ],
     packages=["gitpr"],
     setup_requires=["notebook"],
-    include_package_data=True,
-    entry_points={
-        'console_scripts': ['nbpresent=nbpresent.export:main'],
-    }
+    include_package_data=True
 )
